@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>دعوة إكليل ماركو وكرستينا</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600&family=Noto+Kufi+Arabic:wght@300;400;600&family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#ece7da;--paper2:#e3dccb;--ink:#3a3023;--gold:#b8893a;--goldtext:#7d5a1c;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);background-image:radial-gradient(ellipse at 50% 0,#f3efe4 0,transparent 60%),radial-gradient(ellipse at 50% 100%,var(--paper2) 0,transparent 60%);color:var(--ink);font-family:'Noto Kufi Arabic','Reem Kufi',sans-serif;font-weight:300;font-size:17px;line-height:1.9;text-align:center;-webkit-font-smoothing:antialiased}
+body.lock{overflow:hidden;height:100vh}
+#cover{position:fixed;inset:0;z-index:20;background:var(--paper);transition:opacity .9s ease;cursor:pointer}
+#fl{position:absolute;left:50%;top:46%;width:64px;height:100px;margin:-50px 0 0 -32px}
+#cover.gone{opacity:0;pointer-events:none}
+#cover video{width:100%;height:100%;object-fit:cover;display:block}
+#hint{position:absolute;left:0;right:0;bottom:calc(9vh + env(safe-area-inset-bottom,0px));font-size:19px;color:var(--ink);text-shadow:0 1px 10px #ece7da,0 0 3px #ece7da;animation:br 2.4s ease-in-out infinite;transition:opacity .4s}
+@keyframes br{50%{opacity:.45}}
+main{max-width:480px;margin:0 auto;padding:56px 28px 64px}
+.verse{font-size:22px;line-height:2;font-weight:400;color:var(--goldtext);margin:0 0 4px}
+.ref{font-size:15px;color:var(--goldtext);opacity:.85;margin:0 0 36px}
+.hosts{margin:0;font-size:20px}
+.hosts b{display:block;font-weight:600}
+.invite{margin:14px 0 8px}
+h1{font-family:'Reem Kufi','Noto Kufi Arabic',sans-serif;font-weight:500;font-size:56px;line-height:1.35;margin:0;color:#936369}
+h1 span{display:block;font-size:30px;color:#7b8169;line-height:1.2}
+.arch{width:min(76%,300px);margin:34px auto 0;padding:7px;border:1px solid var(--gold);border-radius:999px 999px 0 0}
+.arch img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 12%;border-radius:999px 999px 0 0}
+.leaf{display:block;margin:34px auto;width:28px;height:44px}
+.date{font-size:24px;margin:0;font-weight:600}
+.time{margin:0;color:var(--goldtext)}
+#cd{display:flex;justify-content:center;gap:10px;margin:28px 0 0}
+.u{flex:1;max-width:84px;border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);padding:8px 0 6px}
+.u b{display:block;font-size:28px;line-height:1.3;font-weight:600}
+.u i{display:block;font-style:normal;font-size:15px;color:var(--goldtext)}
+.place{margin:44px 0 0}
+.place h2{font-size:21px;margin:0;font-weight:600}
+.place p{margin:0 0 14px;color:var(--goldtext)}
+.then{margin:20px 0;font-size:17px;color:var(--goldtext)}
+.btn{display:inline-block;padding:6px 26px;border:1px solid var(--gold);border-radius:999px;color:var(--ink);text-decoration:none;font-size:15px;transition:background .2s,color .2s}
+.btn:hover,.btn:focus-visible{background:var(--gold);color:#fff;outline:none}
+.close{margin:40px 0 0;font-size:20px;font-weight:600}
+.date,.place h2,.close,.u b,.verse{font-family:'Reem Kufi','Noto Kufi Arabic',sans-serif}
+#snd{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));left:12px;z-index:10;width:40px;height:40px;border-radius:50%;border:1px solid var(--gold);background:var(--paper);color:var(--ink);font-size:18px;cursor:pointer}
+html[lang=en] body{font-family:'Montserrat',sans-serif;font-size:16px;font-weight:300}html[lang=en] h1{font-family:'Great Vibes','Montserrat',cursive;font-weight:400;font-size:64px}html[lang=en] .verse{font-size:19px;font-style:italic}html[lang=en] .date,html[lang=en] .place h2,html[lang=en] .u b,html[lang=en] .close{font-weight:500}html[lang=en] .date{font-size:22px}html[lang=en] .date,html[lang=en] .place h2,html[lang=en] .close,html[lang=en] .u b,html[lang=en] .verse{font-family:'Montserrat',sans-serif}#lang{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));right:12px;z-index:30;height:40px;padding:0 16px;border-radius:999px;border:1px solid var(--gold);background:var(--paper);color:var(--ink);font:inherit;font-size:16px;cursor:pointer}
+@media (prefers-reduced-motion:reduce){#hint{animation:none}#cover{transition:none}}
+</style>
+</head>
+<body class="lock">
+<div id="cover" role="button" tabindex="0" aria-label="افتح الدعوة">
+<svg id="fl" viewBox="0 0 28 44" aria-hidden="true"><path d="M14 43V14" stroke="#b8893a" stroke-width="1.2" fill="none"/><g fill="#b8893a"><path d="M14 2c4 5 4 10 0 15-4-5-4-10 0-15z"/><path d="M13 20c-5 0-9-3-10-8 5 0 9 3 10 8z"/><path d="M15 20c5 0 9-3 10-8-5 0-9 3-10 8z"/><path d="M13 31c-5 0-9-3-10-8 5 0 9 3 10 8z"/><path d="M15 31c5 0 9-3 10-8-5 0-9 3-10 8z"/></g></svg>
+<video id="v" muted playsinline preload="auto" src="opening.mp4"></video>
+<div id="hint" data-en="Tap to open the invitation">اضغط لفتح الدعوة</div>
+</div>
+<button id="lang" aria-label="Language">عربي</button>
+<audio id="song" loop preload="auto" src="song.mp3"></audio>
+<button id="snd" hidden aria-label="إيقاف أو تشغيل الموسيقى">♪</button>
+<main>
+<p class="verse" data-en="He who finds a wife finds a good thing,<br>And obtains favor from the Lord.">مَنْ يَجِدْ زَوْجَةً يَجِدْ خَيْرًا وَيَنَلْ رِضًى مِنَ الرَّبِّ</p>
+<p class="ref" data-en="Proverbs 18:22">أمثال ١٨ : ٢٢</p>
+<p class="hosts" data-en="<b>Mr. Amir Abu El-Farag</b><b>Mr. Magdy Agaiby</b>"><b>أ / أمير أبو الفرج</b><b>أ / مجدي عجايبي</b></p>
+<p class="invite" data-en="cordially invite you to the wedding ceremony of">يتشرفان بدعوتكم لحضور حفل إكليل</p>
+<h1 data-en="Marco<span>&amp;</span>Christina">ماركو<span>و</span>كرستينا</h1>
+<div class="arch"><img alt="ماركو وكرستينا" src="photo.jpg"></div>
+<svg class="leaf" viewBox="0 0 28 44" aria-hidden="true"><path d="M14 43V14" stroke="#b8893a" stroke-width="1.4" fill="none"/><g fill="#b8893a"><path d="M14 2c4 5 4 10 0 15-4-5-4-10 0-15z"/><path d="M13 20c-5 0-9-3-10-8 5 0 9 3 10 8z"/><path d="M15 20c5 0 9-3 10-8-5 0-9 3-10 8z"/><path d="M13 31c-5 0-9-3-10-8 5 0 9 3 10 8z"/><path d="M15 31c5 0 9-3 10-8-5 0-9 3-10 8z"/></g></svg>
+<p class="date" data-en="Thursday, October 29, 2026">الخميس ٢٩ أكتوبر ٢٠٢٦</p>
+<p class="time" data-en="6:00 PM">الساعة السادسة مساءً</p>
+<div id="cd" aria-live="off"></div>
+<section class="place">
+<h2 data-en="St. Paul the Apostle Church">كنيسة مار بولس الرسول</h2>
+<p data-en="Obour">العبور</p>
+<a class="btn" id="mapChurch" href="https://www.google.com/maps/search/?api=1&query=%D9%83%D9%86%D9%8A%D8%B3%D8%A9+%D9%85%D8%A7%D8%B1+%D8%A8%D9%88%D9%84%D8%B3+%D8%A7%D9%84%D8%B1%D8%B3%D9%88%D9%84+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1" target="_blank" rel="noopener" data-en="Church location">موقع الكنيسة</a>
+<div class="then" data-en="Followed by the reception at 7:00 PM">ويعقبه حفل الاستقبال الساعة السابعة مساءً</div>
+<h2 data-en="Tulip Hall">قاعة التوليب</h2>
+<p data-en="Gardenia Halls, Suez Road">جاردينيا هولز - طريق السويس</p>
+<a class="btn" id="mapHall" href="https://maps.app.goo.gl/1X25GTJmVkDBANpFA" target="_blank" rel="noopener" data-en="Hall location">موقع القاعة</a>
+</section>
+<p class="close" data-en="Please attend the ceremony in attire suited to the house of God">حضور الإكليل بملابس تليق ببيت الله</p>
+</main>
+<script>
+var $=function(i){return document.getElementById(i)},cover=$('cover'),vid=$('v'),song=$('song'),snd=$('snd'),opened=false;
+var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+vid.addEventListener('loadedmetadata',function(){try{vid.currentTime=0.01}catch(e){}});
+if(song.getAttribute('src'))snd.hidden=false;
+snd.onclick=function(){if(song.paused){song.play()}else{song.pause()}};
+function done(){if(done.d)return;done.d=1;cover.classList.add('gone');document.body.classList.remove('lock');setTimeout(function(){cover.remove()},1000)}
+function openInv(){if(opened)return;opened=true;$('hint').style.opacity=0;
+if(song.getAttribute('src')){var p=song.play();if(p&&p.catch)p.catch(function(){})}
+if(reduce){done();return}
+var p2=vid.play();if(p2&&p2.then){p2.then(function(){vid.addEventListener('ended',done);setTimeout(done,4500)}).catch(done)}else{setTimeout(done,3200)}}
+cover.addEventListener('click',openInv);
+cover.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' ')openInv()});
+var T=new Date(2026,9,29,18,0,0).getTime(),L=['يوم','ساعة','دقيقة','ثانية'];
+var en=false,LE=['Days','Hours','Minutes','Seconds'];
+function ar(n){return en?String(n):String(n).replace(/\d/g,function(d){return '٠١٢٣٤٥٦٧٨٩'[d]})}
+function tick(){var s=Math.max(0,Math.floor((T-Date.now())/1000)),v=[Math.floor(s/86400),Math.floor(s%86400/3600),Math.floor(s%3600/60),s%60],h='';
+if(s===0){$('cd').innerHTML='<p class="date">'+(en?'Today is our day':'اليوم يومنا')+'</p>';return}
+for(var i=0;i<4;i++)h+='<div class="u"><b>'+ar(v[i])+'</b><i>'+(en?LE[i]:L[i])+'</i></div>';
+$('cd').innerHTML=h}
+var tx=document.querySelectorAll('[data-en]');
+for(var k=0;k<tx.length;k++)tx[k].setAttribute('data-ar',tx[k].innerHTML);
+$('lang').onclick=function(){en=!en;var h=document.documentElement;h.lang=en?'en':'ar';h.dir=en?'ltr':'rtl';$('lang').textContent=en?'عربي':'EN';
+for(var k=0;k<tx.length;k++)tx[k].innerHTML=tx[k].getAttribute(en?'data-en':'data-ar');
+document.title=en?'Marco & Christina Wedding Invitation':'دعوة إكليل ماركو وكرستينا';tick()};
+$('lang').onclick();setInterval(tick,1000);
+</script>
+</body>
+</html>
